@@ -5,3 +5,8 @@
 
 p "Enter a word for me to spell:"
 
+word = gets.chomp
+character = word.chars
+character.each do |char|
+  puts char
+end
